@@ -12,7 +12,7 @@ import { ProduitService } from '../services/produit.service';
 })
 export class AddProduitComponent {
 
-  newProduit! :Produit;
+  newProduit = new Produit();
 
   message! : string;
 
